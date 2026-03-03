@@ -4,12 +4,9 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
 body {
     background: #f4f4f4;
 }
-
-/* Navbar */
 header.modern-navbar {
     display: flex;
     justify-content: space-between;
@@ -18,8 +15,6 @@ header.modern-navbar {
     background-color: #1e1e2f;
     color: #fff;
 }
-
-/* Brand */
 .brand {
     display: flex;
     align-items: center;
@@ -29,30 +24,23 @@ header.modern-navbar {
     cursor: pointer;
     transition: transform 0.3s;
 }
-
 .brand:hover {
     transform: scale(1.05);
 }
-
-/* Navigation */
 nav ul {
     list-style: none;
     display: flex;
     gap: 30px;
 }
-
 nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
     transition: color 0.3s;
 }
-
 nav ul li a:hover {
     color: #00d4ff;
 }
-
-/* Login Button */
 .login-btn {
     padding: 8px 18px;
     background-color: #00d4ff;
@@ -62,8 +50,48 @@ nav ul li a:hover {
     font-weight: bold;
     transition: 0.3s;
 }
-
 .login-btn:hover {
     background-color: #00aacc;
     color: #fff;
 }
+section {
+    height: 100vh;
+    padding: 80px 50px;
+    font-size: 32px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+.products {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+}
+
+.product-card {
+    background: #fff;
+    padding: 20px;
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    font-weight: bold;
+    margin: 10px 0;
+    color: #1e1e2f;
+}
+
