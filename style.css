@@ -130,3 +130,117 @@ html {
 
 
 
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 14px;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-page {
+    display: flex;
+    gap: 60px;
+    padding: 80px;
+    align-items: flex-start;
+}
+
+.product-gallery {
+    flex: 1;
+}
+
+.product-gallery img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.thumbnail-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.thumbnail-container img {
+    width: 80px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.thumbnail-container img:hover {
+    transform: scale(1.1);
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.buy-btn {
+    padding: 12px 30px;
+    background-color: #00d4ff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #00aacc;
+    color: white;
+}
+
+.sale-badge {
+    position: absolute;
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+.sale-badge {
+    position: absolute;
+    background: red;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    top: 15px;
+    left: 15px;
+}
+
+.product-gallery {
+    position: relative;
+}
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 18px;
+}
