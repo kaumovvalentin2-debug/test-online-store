@@ -6,38 +6,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <section class="product-page">
-
     <div class="product-gallery">
         <img id="mainImage" src="images/smartwatch-x1.jpg" alt="Смарт-годиник X1">
-
         <div class="thumbnail-container">
             <img src="images/smartwatch-x1.jpg" onclick="changeImage(this)">
             <img src="images/smartwatch-x1-2.jpg" onclick="changeImage(this)">
             <img src="images/smartwatch-x1-3.jpg" onclick="changeImage(this)">
         </div>
     </div>
-
     <div class="product-info">
         <h1>Смарт-годиник X1</h1>
         <p class="price">2500 грн</p>
-
         <p class="description">
             Якісний і багатофунціональний Смарт-годиник який пригодиться у любий час.
             Цей Смарт-годиник може тримати заряд до 7-ми днів активного користування.
         </p>
-
         <button class="buy-btn">Купити</button>
     </div>
-
 </section>
-
 <script>
 function changeImage(element) {
     document.getElementById("mainImage").src = element.src;
 }
 </script>
-
 </body>
 </html>
