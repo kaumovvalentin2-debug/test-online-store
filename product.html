@@ -7,13 +7,37 @@
 </head>
 <body>
 
-<h2>Навушники X1</h2>
-<img src="https://via.placeholder.com/300" alt="Товар">
+<section class="product-page">
 
-<p>Це якісні бездротові навушники з чистим звуком.</p>
-<p><strong>Ціна: 1200 грн</strong></p>
+    <div class="product-gallery">
+        <img id="mainImage" src="images/headphones-x1.jpg" alt="Навушники X1">
 
-<a href="index.html">Назад до магазину</a>
+        <div class="thumbnail-container">
+            <img src="images/headphones-x1.jpg" onclick="changeImage(this)">
+            <img src="images/headphones-x1-2.jpg" onclick="changeImage(this)">
+            <img src="images/headphones-x1-3.jpg" onclick="changeImage(this)">
+        </div>
+    </div>
+
+    <div class="product-info">
+        <h1>Навушники X1</h1>
+        <p class="price">1200 грн</p>
+
+        <p class="description">
+            Якісні бездротові навушники з чистим звучанням,
+            шумозаглушенням та автономністю до 20 годин.
+        </p>
+
+        <button class="buy-btn">Купити</button>
+    </div>
+
+</section>
+
+<script>
+function changeImage(element) {
+    document.getElementById("mainImage").src = element.src;
+}
+</script>
 
 </body>
 </html>
