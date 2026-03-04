@@ -96,6 +96,7 @@ html {
 }
 
 
+
 .action {
     display: flex;
     gap: 30px;
@@ -196,7 +197,9 @@ html {
     border-radius: 8px;
     font-size: 18px;
     cursor: pointer;
-    transition: 0
+    transition: 0.3s;
+}
+
 .buy-btn:hover {
     background-color: #00aacc;
     color: white;
@@ -240,5 +243,4 @@ html {
     text-decoration: line-through;
     color: gray;
     font-size: 18px;
-}.3s;
 }
