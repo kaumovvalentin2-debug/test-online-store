@@ -6,38 +6,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <section class="product-page">
-
     <div class="product-gallery">
         <img id="mainImage" src="images/poverbank-x1.jpg" alt="Повербанк X1">
-
         <div class="thumbnail-container">
             <img src="images/poverbank-x1.jpg" onclick="changeImage(this)">
             <img src="images/poberbank-x1-2.jpg" onclick="changeImage(this)">
             <img src="images/poverbank-x1-3.jpg" onclick="changeImage(this)">
         </div>
     </div>
-
     <div class="product-info">
         <h1>Повербанк X1</h1>
         <p class="price">1650 грн</p>
-
         <p class="description">
             Хороший та надійний повербанк який виручить вас якщо розрядився смартфон.
             Ємкість акамулятура у повербанку 10000mAp.
         </p>
-
         <button class="buy-btn">Купити</button>
     </div>
-
 </section>
-
 <script>
 function changeImage(element) {
     document.getElementById("mainImage").src = element.src;
 }
 </script>
-
 </body>
 </html>
