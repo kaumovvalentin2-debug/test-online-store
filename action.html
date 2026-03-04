@@ -2,19 +2,45 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Навушники X2</title>
+    <title>Навушники X2 -25%</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h2>Навушники X2</h2>
-<img src="https://via.placeholder.com/300" alt="Акція">
+<section class="product-page">
 
-<p>Це якісні бездротові навушники з чистим звуком.</p>
-<p>Зараз на продукт триває знижка -25%.</p>
-<p><strong>Ціна: 900 грн</strong></p>
+    <div class="product-gallery">
+        <div class="sale-badge">-25%</div>
+        <img id="mainImage" src="images/headphones-x2.jpg" alt="Навушники X2">
 
-<a href="index.html">Назад до магазину</a>
+        <div class="thumbnail-container">
+            <img src="images/headphones-x2.jpg" onclick="changeImage(this)">
+            <img src="images/headphones-x2-2.jpg" onclick="changeImage(this)">
+            <img src="images/headphones-x2-3.jpg" onclick="changeImage(this)">
+        </div>
+    </div>
+
+    <div class="product-info">
+        <h1>Навушники X2</h1>
+
+        <p class="old-price">1200 грн</p>
+        <p class="price">900 грн</p>
+
+        <p class="description">
+            Потужні бездротові навушники з глибокими басами,
+            активним шумозаглушенням та автономністю до 30 годин.
+        </p>
+
+        <button class="buy-btn">Купити зі знижкою</button>
+    </div>
+
+</section>
+
+<script>
+function changeImage(element) {
+    document.getElementById("mainImage").src = element.src;
+}
+</script>
 
 </body>
 </html>
