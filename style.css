@@ -244,3 +244,15 @@ html {
     color: gray;
     font-size: 18px;
 }
+
+@media (max-width: 768px) {
+    .product-page {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+}
