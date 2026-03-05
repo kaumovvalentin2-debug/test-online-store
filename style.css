@@ -66,6 +66,7 @@ html {
 
 .products {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     padding: 40px;
 }
@@ -73,7 +74,7 @@ html {
 .product-card {
     background: #fff;
     padding: 20px;
-    width: 220px;
+    width: calc(25% - 30px);
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     text-align: center;
@@ -244,4 +245,21 @@ html {
     color: gray;
     font-size: 18px;
 }
+
+
+
+@media (max-width: 768px) {
+
+.product-card {
+    width: calc(50% - 30px);
+}
+
+}
+
+
+
+.product-card {
+    min-width: 200px;
+}
+
 
